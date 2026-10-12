@@ -11,6 +11,7 @@ public class Main
         int num1;
         int num2;
         int num3;
+        int num4;
         double valor = 4.5;
         // Damos valores a las variables
         num1 = 5;
@@ -18,8 +19,10 @@ public class Main
         
         // Realizamos la operación
         num3 = num1 * num2;
+        num4 = num1 - num2;
         
         // Mostramos el resultado por consola
         System.out.println(num3);
+        System.out.println(num4);
     }
 }
